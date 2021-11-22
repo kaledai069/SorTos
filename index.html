@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="arrayBar" id="arrayBar">
+        </div>
+        <div class="titleContainer">
+            <h1 class="title"><span class="titleCapitalize">S</span>ortos</h1>
+            <span class="subtitle">sorting algo visualizer</span>
+        </div>
+        <div class="btnContainer" id="btnContainer">
+            <button id="randomize" class="btnClass randomBtn">Randomize</button>
+            <button id="mergeSort" class="btnClass">Merge Sort</button>
+            <button id="quickSort" class="btnClass">Quick Sort</button>
+            <button id="bubbleSort" class="btnClass">Bubble Sort</button>
+            <button id="selectionSort" class="btnClass">Selection Sort</button>
+            <button id="insertionSort" class="btnClass">Insertion Sort</button>
+            <button id="countingSort" class="btnClass">Counting Sort</button>
+            <button id="radixSort" class="btnClass">Radix Sort</button>
+            <button id = "heapSort" class="btnClass">Heap Sort</button>
+            <button id = "shellSort" class="btnClass">Shell Sort</button>
+            <button id = "timSort" class = "btnClass">Tim Sort</button>
+            <div class="inputDiv">
+                <input type="range" min="1" max="200" value="200" id=slider>
+                <span class="rangeBar">Speed</span>
+            </div>
+            <div class="inputDiv">
+                <input type="range" min="1" max="5" value="1" id=divSize>
+                <span class="rangeBar">Size</span>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
